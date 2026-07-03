@@ -11,26 +11,33 @@
 
 /*CRIANDO VARIÁVEIS*/
 :root{
-    --cor01: #afa2a2;   
-    --cor02: #0f1de7;
+    --cor01: #0f0e0e;   
+    --cor02: #dcdde9;
     --cor03: #1b0f0f;
     --branca: #ffffff;
+    --cor04: #000000ec;
 }
 
 /* FORMATANDO A TAG main PELO id geral*/
 #geral{
     margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 }
 
 
 /* FORMATANDO O CABEÇALHO*/
 #cabecalho{
-   background-color: aqua;
+   width: 100%;
+    background-color: rgb(249, 247, 253);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 20px;
-    height: 60px;
+    padding: 20px 40px;
+    height: 100px;
 }
 
 /*CONFIGURANDO MENU NA HORIZONTAL*/
@@ -47,5 +54,150 @@ list-style: none;
 #menu ul img{
 width: 25px;
 height: 25px;
+}
+
+/*FORMATANDO SECTION pesquisa*/
+#pesquisa{
+    width: 100%;
+    height: 200px;
+    background-color: var(--cor01);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#pesquisa input{
+    width: 650px;
+    height: 80px;
+    background-color: var(--branca);
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 1.4em;
+    color: var(--cor02);
+
+}
+
+#pesquisa input::placeholder{
+    font-size: 1.3em;
+    font-style: italic;
+    color: var(--cor02);
+}
+
+/*FORMATANDO OS CARDS*/
+#cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 20px;
+    margin: 20px 0px;
+    width: 1000px;
+    min-height: 800px;
+
+}
+
+.card{
+    width: 250px;
+    min-height: 450px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--cor02);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+
+
+}
+
+.card img{
+    width: 150px;
+    height: 200px;
+    margin: 10px 0px;
+}
+
+.card p{
+    font-size: 1.2em;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+
+.card h2{
+    color: var(--cor01);
+}
+
+.card button{
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+    border: none;    
+    border-radius: 5px;
+    background-color: var(--cor03);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: var(--cor02);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/*FORMATAR RODAPÉ*/
+
+#rodape{
+    width: 100%;
+    height: 180px;
+    background-color: var(--cor04);
+    margin: 20px 0px;
+    padding: 10px;
+    color: var(--branca);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/*FORMATANDO LINKS*/
+
+#menu a:link{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: var(--cor02);
+
+}
+
+#menu a:visited{
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: var(--cor02);
+
+}
+
+
+
+#menu a:hover{
+    
+    font-size: 1.6em;
+    text-transform: uppercase   ;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: var(--cor03);
+
+}
+
+#menu a:active{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-decoration: none;
+    color: var(--cor01);
+
 }
 
