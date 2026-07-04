@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Roboto,sans-serif;
+}
+
+:root{
+    --cor01:#0f0e0e;
+    --cor02:#dcdde9;
+    --cor03:#1b0f0f;
+    --cor04:#000000ec;
+}
+
+#cabecalho{
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+    background:#f8f8f8;
+}
+
+#logo{
+    font-size:2em;
+    font-weight:bold;
+}
+
+#menu ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+    align-items:center;
+}
+
+#menu img{
+    width:30px;
+}
+
+#menu a{
+    text-decoration:none;
+    color:#000;
+    font-weight:bold;
+}
+
+#carrinho{
+    width:90%;
+    margin:40px auto;
+}
+
+#carrinho h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+th{
+    background:#1b0f0f;
+    color:white;
+    padding:15px;
+}
+
+td{
+    text-align:center;
+    border:1px solid #ddd;
+    padding:15px;
+}
+
+td img{
+    width:90px;
+    height:90px;
+    object-fit:cover;
+}
+
+input{
+    width:60px;
+    height:35px;
+    text-align:center;
+}
+
+#total{
+    margin-top:40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#total button{
+    width:220px;
+    height:50px;
+    border:none;
+    background:#1b0f0f;
+    color:white;
+    font-size:18px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+#total button:hover{
+    background:black;
+}
+
+#rodape{
+    width:100%;
+    height:150px;
+    background:#000;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    margin-top:50px;
+}

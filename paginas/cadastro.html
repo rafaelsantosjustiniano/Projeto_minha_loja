@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - RP Locações</title>
+
+    <link rel="stylesheet" href="../css/style_cadastro.css">
+</head>
+<body>
+
+<main id="geral">
+
+    <header id="cabecalho">
+
+        <div id="logo">
+            RP LOCAÇÕES
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li>
+                    <a href="carrinho.html">
+                        <img src="../imagens/carrinho-de-compras-removebg-preview.png" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <section id="cadastro">
+
+        <h1>Cadastro de Cliente</h1>
+
+        <form>
+
+            <div class="campo">
+                <label>Nome Completo</label>
+                <input type="text" required>
+            </div>
+
+            <div class="campo">
+                <label>CPF</label>
+                <input type="text" required>
+            </div>
+
+            <div class="campo">
+                <label>Data de Nascimento</label>
+                <input type="date" required>
+            </div>
+
+            <div class="campo">
+                <label>E-mail</label>
+                <input type="email" required>
+            </div>
+
+            <div class="campo">
+                <label>Telefone</label>
+                <input type="tel" required>
+            </div>
+
+            <div class="campo">
+                <label>CEP</label>
+                <input type="text">
+            </div>
+
+            <div class="campo">
+                <label>Endereço</label>
+                <input type="text">
+            </div>
+
+            <div class="campo">
+                <label>Número</label>
+                <input type="number">
+            </div>
+
+            <div class="campo">
+                <label>Bairro</label>
+                <input type="text">
+            </div>
+
+            <div class="campo">
+                <label>Cidade</label>
+                <input type="text">
+            </div>
+
+            <div class="campo">
+                <label>Estado</label>
+
+                <select>
+
+                    <option>Selecione</option>
+                    <option>SE</option>
+                    <option>BA</option>
+                    <option>AL</option>
+                    <option>PE</option>
+                    <option>SP</option>
+
+                </select>
+
+            </div>
+
+            <div class="campo">
+                <label>Senha</label>
+                <input type="password" required>
+            </div>
+
+            <div class="campo">
+                <label>Confirmar Senha</label>
+                <input type="password" required>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+
+        </form>
+
+    </section>
+
+    <footer id="rodape">
+
+        <h2>&copy;2026 RP Locações</h2>
+
+        <p>Temos a solução para seu evento.</p>
+
+    </footer>
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Roboto,sans-serif;
+}
+
+:root{
+    --cor01:#0f0e0e;
+    --cor02:#dcdde9;
+    --cor03:#1b0f0f;
+    --cor04:#000000ec;
+    --branca:#fff;
+}
+
+#geral{
+    width:100%;
+}
+
+#cabecalho{
+    width:100%;
+    height:100px;
+    background:#f8f8f8;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+
+#logo{
+    font-size:2em;
+    font-weight:bold;
+}
+
+#menu ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+    align-items:center;
+}
+
+#menu img{
+    width:30px;
+}
+
+#menu a{
+    text-decoration:none;
+    color:var(--cor01);
+    font-size:1.2em;
+    font-weight:bold;
+}
+
+#menu a:hover{
+    color:var(--cor03);
+}
+
+#banner{
+    height:220px;
+    background:var(--cor01);
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#banner h1{
+    font-size:3em;
+    letter-spacing:3px;
+}
+
+#conteudo{
+    width:80%;
+    margin:50px auto;
+    line-height:35px;
+}
+
+#conteudo h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:var(--cor03);
+}
+
+#conteudo p{
+    margin-bottom:25px;
+    font-size:1.1em;
+    text-align:justify;
+}
+
+#rodape{
+    width:100%;
+    height:180px;
+    background:var(--cor04);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+}
