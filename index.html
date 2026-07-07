@@ -3,101 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto minha loja Virtual</title>
+    <title>RP LOCAÇÕES - Sua Loja Virtual</title>
 
     <link rel="stylesheet" href="css/style_estrutura_pagina.css">
 </head>
 <body>
-    <main id="geral">
-        <header id="cabecalho">
-            <div id="logo">
-                RP LOCAÇÕES
-            </div>
 
-            <nav id="menu">
-                <ul>
-                    <li><a href="paginas/cadastro.html">Cadastro</a></li>  
-                    <li><a href="paginas/sobre.html">Sobre</a></li> 
-                    <li><a href="paginas/login.html">Login</a></li> 
-                    <li><a href="paginas/carrinho.html" ><img src="imagens/carrinho-de-compras-removebg-preview.png" alt="Carrinho"></a></li>  
-                </ul>
-            </nav>
-        </header>
+<main id="geral">
 
-        <section id="pesquisa">
-            <input type="text" name="pesquisa" id="pesquisa" class="input-pesquisa" placeholder="Digite seu produto">
+    <!-- Cabeçalho -->
+    <header id="cabecalho">
 
-        </section>
-    
-        <section id="cards">
-            <div class="card">
-                <img src="imagens/cadeira-tiffany.jpg" alt="cadeira tiffany">
-                <p>Cadeira tiffany</p>
-                <h2>5,00</h2>
-                <button class="btn-add">Adicionar</button>
-            </div>
+        <div id="logo">
+            RP LOCAÇÕES
+        </div>
 
-            <div class="card">
-                <img src="imagens/andaimes.webp" alt="andaimes">
-                <p>andaimes</p>
-                <h2>50,00</h2>
-                <button class="btn-add">Adicionar</button>
-            </div>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="paginas/cadastro.html">
+                        <img src="imagens/Cadastro-removebg-preview.png" alt="Cadastro">
+                    </a>
+                </li>
 
-            <div class="card">
-                <img src="imagens/cadeira-de-plastico.jpg" alt="cadeira de plastico">
-                <p>Cadeira de plástico</p>
-                <h2>3,00</h2>
-                <button class="btn-add">Adicionar</button>
-            </div>
+                <li>
+                    <a href="paginas/sobre.html">
+                        <img src="imagens/Sobre.png" alt="Sobre">
+                    </a>
+                </li>
 
-            <div class="card">
-                <img src="imagens/mesa-de-plastico.jpg" alt="mesa de plastico">
-                <p>Mesas de plástico</p>
-                <h2>5,00</h2>
-                <button class="btn-add">Adicionar</button>
-            </div>
+                <li>
+                    <a href="paginas/carrinho.html">
+                        <img src="imagens/carrinho-de-compras-removebg-preview.png" alt="Carrinho">
+                    </a>
+                </li>
 
-            <div class="card">
-                <img src="imagens/caixa-termica.webp" alt="caixa termica">
-                <p>Caixa Térmica</p>
-                <h2>80,00</h2>
-                <button class="btn-add">Adicionar</button>
-            </div>
+                <li>
+                    <a href="paginas/login.html">
+                        <img src="imagens/Login-removebg-preview.png" alt="Login">
+                    </a>
+                </li>
+            </ul>
+        </nav>
 
-            <div class="card">
-                <img src="imagens/carreta-de-briquedos.webp" alt="carreta de briquedos">
-                <p>Carreta de Brinquedos</p>
-                <h2>500,00</h2>
-                <button class="btn-add">Adicionar</button>
-            </div>
+    </header>
 
-            <div class="card">
-                <img src="imagens/caixas-de-som.webp" alt="caixas de som">
-                <p>Caixas de som</p>
-                <h2>1500,00</h2>
-                <button class="btn-add">Adicionar</button>
-            </div>
+    <!-- Banner -->
 
-            <div class="card">
-                <img src="imagens/carrinho-de-churros.webp" alt="carrinho de churros">
-                <p>Carrinho de Churros</p>
-                <h2>150,00</h2>
-                <button class="btn-add">Adicionar</button>
-            </div>
+    <section id="banner">
 
+        <div class="texto-banner">
 
+            <h1>Bem-vindo à RP LOCAÇÕES</h1>
 
-        </section>
+            <p>
+                Tudo o que você precisa para seu evento em um só lugar.
+            </p>
 
-        <footer id="rodape">
-            <h2>&copy 2026 Rplocações S.A. </h2>
-            <h2>Temos a solução para o seu evento!</h2>
-            <p>Formas de pagamento : Pix,Cartões de Débito e Crédito</p>
+            <a href="#cards">
+                <button>Ver Produtos</button>
+            </a>
 
-        </footer>
+        </div>
 
-    </main>
+    </section>
+
+    <!-- Pesquisa -->
+
+    <section id="pesquisa">
+
+        <input
+            type="text"
+            placeholder="Pesquise pelo produto desejado..."
+        >
+
+    </section>
+
+    <!-- Produtos -->
+
+    <section id="cards">
+
+        <div class="card">
+
+            <img src="imagens/cadeira-tiffany.jpg" alt="">
+
+            <p>Cadeira Tiffany</p>
+
+            <h2>R$ 5,00</h2>
+
+            <button>Adicionar</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagens/andaimes.webp" alt="">
+
+            <p>Andaimes</p>
+
+            <h2>R$ 50,00</h2>
+
+            <button>Adicionar</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagens/cadeira-de-plastico.jpg" alt="">
+
+            <p>Cadeira de Plástico</p>
+
+            <h2>R$ 3,00</h2>
+
+            <button>Adicionar</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagens/mesa-de-plastico.jpg" alt="">
+
+            <p>Mesa de Plástico</p>
+
+            <h2>R$ 5,00</h2>
+
+            <button>Adicionar</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagens/caixa-termica.webp" alt="">
+
+            <p>Caixa Térmica</p>
+
+            <h2>R$ 80,00</h2>
+
+            <button>Adicionar</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagens/carreta-de-briquedos.webp" alt="">
+
+            <p>Carreta de Brinquedos</p>
+
+            <h2>R$ 500,00</h2>
+
+            <button>Adicionar</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagens/caixas-de-som.webp" alt="">
+
+            <p>Caixas de Som</p>
+
+            <h2>R$ 1.500,00</h2>
+
+            <button>Adicionar</button>
+
+        </div>
+
+        <div class="card">
+
+            <img src="imagens/carrinho-de-churros.webp" alt="">
+
+            <p>Carrinho de Churros</p>
+
+            <h2>R$ 150,00</h2>
+
+            <button>Adicionar</button>
+
+        </div>
+
+    </section>
+
+    <!-- Rodapé -->
+
+    <footer id="rodape">
+
+        <h2>&copy; 2026 RP LOCAÇÕES</h2>
+
+        <h3>Temos a solução para o seu evento!</h3>
+
+        <p>
+            Formas de pagamento: Pix, Cartão de Débito e Crédito.
+        </p>
+
+    </footer>
+
+</main>
 
 </body>
 </html>

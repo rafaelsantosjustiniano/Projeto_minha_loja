@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Roboto,sans-serif;
+}
+
+:root{
+    --cor01:#0f0e0e;
+    --cor02:#dcdde9;
+    --cor03:#1b0f0f;
+    --cor04:#000000ec;
+    --branca:#fff;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+#geral{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+#cabecalho{
+    width:100%;
+    height:100px;
+    background:#f9f7fd;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+
+#logo{
+    font-size:30px;
+    font-weight:bold;
+    color:var(--cor03);
+}
+
+#menu ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+#menu a{
+    text-decoration:none;
+    color:var(--cor03);
+    font-size:18px;
+    transition:.3s;
+}
+
+#menu a:hover{
+    color:black;
+}
+
+#login{
+    width:100%;
+    min-height:700px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(to bottom,#0f0e0e,#2b2b2b);
+}
+
+.caixa-login{
+
+    width:420px;
+    background:white;
+    padding:40px;
+    border-radius:10px;
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+
+}
+
+.caixa-login h1{
+
+    text-align:center;
+    margin-bottom:30px;
+    color:var(--cor03);
+
+}
+
+.caixa-login form{
+
+    display:flex;
+    flex-direction:column;
+
+}
+
+.caixa-login label{
+
+    margin-top:15px;
+    margin-bottom:8px;
+    font-weight:bold;
+
+}
+
+.caixa-login input{
+
+    height:50px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    padding:10px;
+    font-size:16px;
+
+}
+
+.caixa-login input:focus{
+
+    outline:none;
+    border:2px solid var(--cor03);
+
+}
+
+.caixa-login button{
+
+    margin-top:30px;
+    height:50px;
+    border:none;
+    background:var(--cor03);
+    color:white;
+    font-size:17px;
+    cursor:pointer;
+    border-radius:6px;
+    transition:.3s;
+
+}
+
+.caixa-login button:hover{
+
+    background:black;
+
+}
+
+.caixa-login p{
+
+    margin-top:20px;
+    text-align:center;
+
+}
+
+.caixa-login a{
+
+    color:var(--cor03);
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+.caixa-login a:hover{
+
+    text-decoration:underline;
+
+}
+
+#rodape{
+
+    width:100%;
+    height:180px;
+    background:var(--cor04);
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
+}
