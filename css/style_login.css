@@ -42,6 +42,17 @@ body{
     color:var(--cor03);
 }
 
+#logo a{
+    text-decoration: none;
+    color: inherit; /* usa a mesma cor da div */
+    display: block;
+}
+
+#logo a:hover{
+    color: inherit; /* não muda a cor ao passar o mouse */
+    cursor: pointer;
+}
+
 #menu ul{
     display:flex;
     list-style:none;

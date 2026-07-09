@@ -48,6 +48,18 @@ body{
     font-weight:bold;
     color:var(--cor02);
     letter-spacing:2px;
+    
+}
+
+#logo a{
+    text-decoration: none;
+    color: inherit; /* usa a mesma cor da div */
+    display: block;
+}
+
+#logo a:hover{
+    color: inherit; /* não muda a cor ao passar o mouse */
+    cursor: pointer;
 }
 
 #menu ul{
@@ -244,4 +256,32 @@ body{
         width:90%;
     }
 
+}
+
+
+/* FORMATANDO O MENU DE SEÇÕES */
+
+#secoes-produtos {
+    width: 100%;
+    min-height: 100px;
+    background-color: var(--cor02);
+    margin: 20px 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lnk-secao:link,
+.lnk-secao:visited {
+    text-decoration: none;
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: var(--branca);
+}
+
+.lnk-secao:hover {
+    font-size: 1.4em;
+    text-transform: uppercase;
+    color: var(--cor03);
 }

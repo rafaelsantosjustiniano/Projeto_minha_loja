@@ -30,6 +30,18 @@
     font-weight:bold;
 }
 
+#logo a{
+    text-decoration: none;
+    color: inherit; /* usa a mesma cor da div */
+    display: block;
+}
+
+#logo a:hover{
+    color: inherit; /* não muda a cor ao passar o mouse */
+    cursor: pointer;
+}
+
+
 #menu ul{
     display:flex;
     gap:30px;
