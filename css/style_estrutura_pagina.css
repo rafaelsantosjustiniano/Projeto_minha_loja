@@ -285,3 +285,27 @@ body{
     text-transform: uppercase;
     color: var(--cor03);
 }
+
+#menu-secoes{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+    list-style:none;
+    flex-wrap:wrap;
+}
+
+.lnk-secao{
+    text-decoration:none;
+    background:#ffffff;
+    color:#111111;
+    padding:12px 25px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.lnk-secao:hover{
+    background:#444;
+    color:#fff;
+}
