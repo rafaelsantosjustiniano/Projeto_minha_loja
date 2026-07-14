@@ -129,3 +129,32 @@ input{
     align-items:center;
     margin-top:50px;
 }
+
+#listaCarrinho{
+
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    margin:40px;
+
+}
+
+.produtoCarrinho{
+
+    width:250px;
+    border:1px solid #ddd;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 0 8px rgba(0,0,0,.2);
+
+}
+
+.produtoCarrinho img{
+
+    width:180px;
+    height:180px;
+    object-fit:cover;
+
+}
