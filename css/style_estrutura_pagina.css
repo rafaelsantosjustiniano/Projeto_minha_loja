@@ -64,17 +64,39 @@ body{
 
 #menu ul{
     display:flex;
+    gap:45px;
     list-style:none;
-    gap:35px;
+    align-items:center;
+}
+
+#menu li{
+    text-align:center;
+}
+
+#menu a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    color:#000;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+#menu a:hover{
+    transform:scale(1.08);
 }
 
 #menu img{
-    width:35px;
-    transition:.3s;
+    width:34px;
+    height:34px;
+    margin-bottom:6px;
 }
 
-#menu img:hover{
-    transform:scale(1.2);
+#menu span{
+    font-size:15px;
+    font-weight:500;
 }
 
 /* ================= BANNER ================= */
@@ -261,15 +283,18 @@ body{
 
 /* FORMATANDO O MENU DE SEÇÕES */
 
-#secoes-produtos {
-    width: 100%;
-    min-height: 100px;
-    background-color: var(--cor02);
-    margin: 20px 0px;
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#secoes-produtos{
+    width:100%;
+    min-height:100px;
+    background:var(--cor02);
+
+    margin:0;
+
+    padding:20px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
 }
 
 .lnk-secao:link,

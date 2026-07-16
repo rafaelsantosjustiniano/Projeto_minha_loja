@@ -55,21 +55,40 @@ body{
 
 #menu ul{
     display:flex;
+    gap:45px;
     list-style:none;
-    gap:30px;
+    align-items:center;
+}
+
+#menu li{
+    text-align:center;
 }
 
 #menu a{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
     text-decoration:none;
-    color:var(--cor03);
-    font-size:18px;
-    transition:.3s;
+    color:#000;
+    font-weight:bold;
+    transition:0.3s;
 }
 
 #menu a:hover{
-    color:black;
+    transform:scale(1.08);
 }
 
+#menu img{
+    width:34px;
+    height:34px;
+    margin-bottom:6px;
+}
+
+#menu span{
+    font-size:15px;
+    font-weight:500;
+}
 #login{
     width:100%;
     min-height:700px;
